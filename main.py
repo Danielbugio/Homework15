@@ -6,9 +6,9 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route('/about me/')
+@app.route('/aboutme/')
 def about():
-    return render_template("about me.html")
+    return render_template("aboutme.html")
 
 @app.route('/portfolio/')
 def portefolio():
