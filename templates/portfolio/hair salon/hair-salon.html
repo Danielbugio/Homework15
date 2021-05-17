@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <title>Coifeuse Royal</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+
+        <!-- JavaScript files -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </head>
+
+    <body>
+
+        <!--Navbar--> 
+        <nav class="navbar navbar-expand-lg navbar-light " id="navbar">     
+                <h2 class=" font-weight-bold ml-3"  href="#">Coifeuse Royal</h2>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+            <ul class="navbar-nav ml-auto" >
+                <li class="nav-item">
+                <a class="nav-link  text-white bg-dark font-weight-bold" href="#NossosServiços">Nossos serviços<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-white bg-dark font-weight-bold" href="#marcação">Marcação</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white bg-dark font-weight-bold" href="#FAQ">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white bg-dark font-weight-bold"  data-toggle="modal" data-target="#modal2">
+                    Sobre Nós
+                  </a>
+                </li>                             
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisa" aria-label="Search">
+                <button class="btn  my-2 my-sm-0 text-white bg-dark font-weight-bold" type="submit">Pesquisa</button>
+            </form>
+            </div>
+            
+          </nav>
+
+          <!--Carrosel-->
+
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" class="col-sm-8">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="item peopleCarouselImg">
+                        <img src="https://i.ibb.co/86pyg2L/Loja2-1.jpg"  class="d-block w-100 h-50" alt="...">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="item peopleCarouselImg">
+                        <img src="https://i.ibb.co/sykbgvW/Loja1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="item peopleCarouselImg">   
+                        <img src="https://i.ibb.co/JptgZvZ/Loja3-1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+            </div>
+
+          <!--Os nossos serviços--> 
+          <div class="row" id="NossosServiços">
+            <div class="col-12">
+            <div class="card">
+              <div clas="card-block">
+                <h1 class="card text-center p-3 mb-2 bg-info text-white font-weight-bold">Os Nossos Serviços</h1>
+                
+              </div>
+            </div>
+            </div>
+          </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-block">
+                    <h3  class="card text-center bg-info text-white font-weight-bold">Penteados</h3>
+                  </div>
+                  <img src="https://i.ibb.co/mFTWcwK/penteados.jpg" class="card-img-bottom img-fluid">
+                </div>
+              </div>
+            
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-block">
+                  <h3  class="card text-center bg-info text-white font-weight-bold">Pintura</h3>
+                </div>
+                <img src="https://i.ibb.co/cLHFLSN/color2.jpg" class="card-img-bottom img-fluid">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-block">
+                  <h3  class="card text-center bg-info text-white font-weight-bold">Corte</h3>
+                </div>
+                <img src="https://i.ibb.co/4F1S1Zt/haircut.jpg" class="card-img-bottom">
+              </div>
+            </div>
+          </div>
+            
+
+
+<!-- Marcação-->
+
+<div class="row" id="marcação">
+  <div class="col-12">
+  <div class="card">
+    <div clas="card-block">
+      <h1 class="card text-center p-3 mb-2 bg-info text-white font-weight-bold">Marcações</h1>
+    </div>
+  </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 col-lg-6">
+
+      <form>  
+        <div class="form-group">
+          <label for="exampleFormControlInput1" class="font-weight-bold">Nome e Apelido</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nome">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1" class="font-weight-bold">Telefone</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="96 *** ** **">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1" class="font-weight-bold">Data e hora preferencial</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="01/01/2021 08h00">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect2" class="font-weight-bold">Serviço</label>
+          <select multiple class="form-control" id="exampleFormControlSelect2">
+            <option>Corte</option>
+            <option>Pintura</option>
+            <option>Pentear</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1" class="font-weight-bold">Comentários</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="4">Escreva aqui o seu comentário ou dúvida
+          </textarea>
+        </div>
+        <div class="col-sm-8 col-lg-4">
+          <button type="button" class="btn btn-info btn-lg btn-block">Enviar</button>
+        </div>
+      </form>
+  </div>
+
+  <div class="col-sm-8 col-lg-5">
+    <table class="table table-striped">
+      <thead class="thead-dark">
+        <tr >
+          <th scope="col" class="text-center">Dia</th>
+          <th scope="col"class="text-center">Horário</th>
+        </tr>
+      </thead>
+      <tbody class="bg-light text-dark">
+        <tr>
+          <th scope="row" class="text-center">Domingo</th>
+          <td class="text-center">07h00-14h00</td>
+        </tr>
+        <tr>
+          <th scope="row" class="text-center">Segunda-feira</th>
+          <td class="text-center">10h00-19h00</td>
+        </tr>
+        <tr>
+          <th scope="row" class="text-center">Terça-feira</th>
+          <td class="text-center">Encerrado</td>
+        </tr>
+        <tr>
+          <th scope="row" class="text-center">Quarta-feira</th>
+          <td class="text-center">10h00-19h00</td>
+        </tr>
+        <tr>
+          <th scope="row" class="text-center">Quinat-feira</th>
+          <td class="text-center">10h00-19h00</td>
+        </tr>
+        <tr>
+          <th scope="row" class="text-center">Sexta-feira</th>
+          <td class="text-center">10h00-19h00</td>
+        </tr>
+        <tr>
+          <th scope="row" class="text-center">Sábado</th>
+          <td class="text-center">08h00-20h00</td>
+        </tr>
+      </table>
+        
+  </div>
+  
+</div>
+
+<!-- Perguntas Frequentes-->
+
+<div class="row" id="FAQ">
+  <div class="col-12">
+    <div class="card">
+      <div clas="card-block">
+        <h1 class="card text-center p-3 mb-2 bg-info text-white font-weight-bold">Perguntas Frequentes</h1>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Fazem serviço ao Domicilio?
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        Sim fazemos serviço ao domicilio, até um raio de 15Kms das nossas instalações.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Animais de estimação podem entrar?
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        Apenas cães e gatos são permitidos, e para ambos os casos é obrigatório vir acompanhado com o boletim de vacinas e comprovativo de conclusão com sucesso de curso de bom comprtamento.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Fazem atendimento fora do vosso horário de trabalho, para eventos especiais?
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        Não atendemos no nosso salão fora de horas, mas pode sempre solicitar um agendamento ao domicilio.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Footer-->
+
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Contatos</h5>
+        <p class="card-text">Coifeuse Royal</p>
+         <p> Av. do Berbigão Nº. 23</p>
+         <p> 9999-999 - Ligueirão </p>
+         <p> Tel: 97 999 99 99 / 21 999 99 99 </p>
+         <p> Coifeuseroyal@coifeuseroyal.com</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Navegação</h5>
+        <ul >
+          <li class="nav-item">
+          <a class="nav-link" href="#NossosServiços">Nossos serviços<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#marcação">Marcação</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#FAQ">FAQ</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#SobreNos">Sobre Nós</a>
+          </li>                             
+      </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Modal-->
+
+<div class="modal" tabindex="-1" role="dialog" id="modal2">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center font-weight-bold">Sobre Nós</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Estamos no mercado há mais de 30 anos, Os nossos profissionais são todos muito experiente, alguns deles já ganharam concuros entre os quais, "Best hairstyle PT2016", "Jolie Cheveux 2019-Lyon".
+          Varias figuras conhecidas são nossos clientes, tais como Simone de Oliveira, Catarina Furtado, Sara Tavares, Rute Marlene, Marisa entre tantos outros.
+        </p>
+      </div>
+      <!--<div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>-->
+    </div>
+  </div>
+</div>
+  
+</html>

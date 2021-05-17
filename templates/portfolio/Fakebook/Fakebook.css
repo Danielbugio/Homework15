@@ -1,0 +1,109 @@
+
+body {
+    background-image: url(https://pumpkin.pt/wp-content/uploads/2018/07/serra-da-arr%C3%A1bida.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/* Simbolo pequeno do facebook*/
+.fa {
+  font-size: 8px;
+  padding: 12px;
+  width: 12px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-facebook {
+  font-size: 30px;
+  background: #3B5998;
+  color: white;
+}
+
+/* layout da caixa de texto */
+#search {
+    background-color:Indigo;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    color:#ffffff;
+    width: 150px;
+    height: 30px;
+    padding: 0px 0px 0px 15px;
+    margin: 10px 60px 20px 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 40px;
+}
+
+/* layout da caixa de seleção */
+#searchfriend{
+    background-color:indigo;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    color:#ffffff;
+    width: 150px;
+    height: 30px;
+    padding: 0px 20px 0px 15px;
+    margin: 10px 60px 20px 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 40px;
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Arial black', sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: #4267B2;
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+    font-family: Snell Roundhand, cursive ;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: #d6c35e;
+    text-align: center;
+}
+
+
+
+#foto{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.container{
+    height: 40px;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.button {
+  background-color:Indigo;
+  font-size: 20px;
+  font-family: 'Arial', sans-serif;
+  color:#ffffff;
+  width: 150px;
+  height: 40px;
+  padding: 0px 20px 0px 15px;
+  margin: 10px 60px 20px 10px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 40px
+}
+
+.generico{
+    font-Size: 22px;
+    text-shadow: -1px -1px 0 grey, 1px -1px 0 grey, -1px 1px 0 #000, 1px 1px 0 grey;
+
+}
+

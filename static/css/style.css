@@ -1,0 +1,38 @@
+body {
+    background-image: url("https://i.ibb.co/R4PzFSb/Seamless-pattern-with-scissors-on-white-background-Hair-beauty-salon-equipment-barbershop-vector-ill.jpg");
+}
+
+#navbar{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-image: url("https://i.ibb.co/khgBYWQ/teste-edited.jpg");
+}
+
+
+.row {
+    margin-top: 0em;
+    margin-bottom: 3em;
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+.carousel-inner{
+    margin-bottom: 3em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+table{
+    margin-left: 4em;
+    margin-top: 1em;
+    
+}
+
+.btn-block{
+    margin-left: 9em;
+      }
+
+.accordion{
+    margin-bottom: 3em;
+}
+
